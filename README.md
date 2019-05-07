@@ -2,13 +2,16 @@
 
 Emulate Spotify's premium features.
 
-## Dependencies
-
-- `gobject-introspection` from your package manager
-
 ## Installation
 
-`$ pip install git+https://github.com/grrtej/spotiboi.git`
+### Dependencies
+
+- Arch Linux: `gobject-introspection`
+- Ubuntu/Debian: `pkg-config libgirepository1.0-dev libcairo2-dev`
+
+### Install from git
+
+`$ pip install -U git+https://github.com/grrtej/spotiboi.git`
 
 ## TODO
 
